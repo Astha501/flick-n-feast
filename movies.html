@@ -1,0 +1,439 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" contents="IE=edge ">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flicks N' Feasts</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <!--link swiper-->
+    <!-- Swiper CSS -->
+   <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+   <!--BOX-ICON-->
+   <link href="https:/unpkg.com/boxicons@2.1.1/css/boxicons.min.css" rel="stylesheet">
+   <!--Favicon-->
+   <link rel="shortcut icon" href="img/fav-icon.png" type="image/x-icon">
+
+</head>
+<body>
+
+    <section id="header">
+        <a href="#"><img src="img/logo.png" class="logo" alt=""></a>
+
+        <div>
+            <ul id="navbar">
+                <li> <a href="index.html">Home</a></li>
+                <li> <a href="series.html">series</a></li>
+                <li> <a class="active" href="movies.html">movies</a></li>
+                <li> <a href="food.html">Food</a></li>
+                <li> <a href="aboutus.html">Aboutus</a></li>
+                <li> <a href="contact.html">Contact us</a></li>
+                <a href="#" id="close"><i class="fa-solid fa-arrow-right"></i></a>
+            </ul>
+        </div>
+        <div id="mobile">
+             <i id="bar" class="fas fa-outdent"></i>
+        </div>
+    </section>
+    <!--<section id="page-header">
+        <h2>“Binge-worthy TV shows, just a click away”</h2>
+        <p>From drama to comedy, find the series that speaks to you.</p>
+    </section>-->
+
+
+<!--HOME-->
+     <section class="home container" id="home">
+        <!--Home page-->
+        <div class="home-title">
+            <a href="#" class="watch-btn">
+                <i class='bx bx-right-arrow' ></i>
+                <span>Watch Trailer</span>
+            </a>
+        </div>
+     </section>
+     <!--Home end's-->
+     <section class="popular container" id="popular">
+        <!--heading-->
+        <div class="heading">
+           <h2 class="heading-title">Popular Movies</h2>
+           <!--Swipe buttons-->
+           <div class="swiper-btn">
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+           </div>
+        </div>
+        <!--Content-->
+        <div class="popular-content swiper">
+            <div class="swiper-wrapper">
+                <!--Movies Box 1-->
+                <div class="swiper-slide">
+                    <div class="movie-box">
+                        <img src="img/movies/popular-movie-1.png" alt="" class="movie-box-img">
+                        <div class="box-text">
+                            <h3 class="movie-title">Spider-Man: No Way Home</h3>
+                            <span class="movie-type">Action</span>
+                            <a href="#" class="watch-btn play-btn">
+                                <i class='bx bx-right-arrow'></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <!--Movies Box 2-->
+                <div class="swiper-slide">
+                    <div class="movie-box">
+                        <img src="img/movies/popular-movie-2.png" alt="" class="movi-box-img">
+                        <div class="box-text">
+                            <h3 class="movie-tile">Jungle Cruise</h3>
+                            <span class="movie-type">Action/Adventure</span>
+                            <a href="#" class="watch-btn play-btn">
+                                <i class='bx bx-right-arrow' ></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <!--Movies Box 3-->
+                <div class="swiper-slide">
+                    <div class="movie-box">
+                        <img src="img/movies/popular-movie-3.png" alt="" class="movi-box-img">
+                        <div class="box-text">
+                            <h3 class="movie-tile">Loki</h3>
+                            <span class="movie-type">Action</span>
+                            <a href="#" class="watch-btn play-btn">
+                                <i class='bx bx-right-arrow' ></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <!--Movies Box 4-->
+                <div class="swiper-slide">
+                    <div class="movie-box">
+                        <img src="img/movies/popular-movie-4.png" alt="" class="movi-box-img">
+                        <div class="box-text">
+                            <h3 class="movie-tile">Squid Game</h3>
+                            <span class="movie-type">Action</span>
+                            <a href="#" class="watch-btn play-btn">
+                                <i class='bx bx-right-arrow' ></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <!--Movies Box 5-->
+                <div class="swiper-slide">
+                    <div class="movie-box">
+                        <img src="img/movies/popular-movie-5.png" alt="" class="movi-box-img">
+                        <div class="box-text">
+                            <h3 class="movie-tile">The Falcon and the Winter Soldier</h3>
+                            <span class="movie-type">Action/Adventure</span>
+                            <a href="#" class="watch-btn play-btn">
+                                <i class='bx bx-right-arrow' ></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <!--Movies Box 6-->
+                <div class="swiper-slide">
+                    <div class="movie-box">
+                        <img src="img/movies/popular-movie-6.png" alt="" class="movi-box-img">
+                        <div class="box-text">
+                            <h3 class="movie-tile">Hawkeye</h3>
+                            <span class="movie-type">Action</span>
+                            <a href="#" class="watch-btn play-btn">
+                                <i class='bx bx-right-arrow' ></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <!--Movies Box 7-->
+                <div class="swiper-slide">
+                    <div class="movie-box">
+                        <img src="img/movies/popular-movie-7.png" alt="" class="movi-box-img">
+                        <div class="box-text">
+                            <h3 class="movie-tile">Agents of S.H.I.E.L.d</h3>
+                            <span class="movie-type">Action</span>
+                            <a href="#" class="watch-btn play-btn">
+                                <i class='bx bx-right-arrow' ></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <!--Movies Box 8-->
+                <div class="swiper-slide">
+                    <div class="movie-box">
+                        <img src="img/movies/popular-movie-8.png" alt="" class="movi-box-img">
+                        <div class="box-text">
+                            <h3 class="movie-tile">The Flash</h3>
+                            <span class="movie-type">Action/Sci-Fi</span>
+                            <a href="#" class="watch-btn play-btn">
+                                <i class='bx bx-right-arrow' ></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <!--Movies Box 6-->
+                <div class="swiper-slide">
+                    <div class="movie-box">
+                        <img src="img/features/movie4.jpg" alt="" class="movi-box-img">
+                        <div class="box-text">
+                            <h3 class="movie-tile">Munjya</h3>
+                            <span class="movie-type">Sci-Fi</span>
+                            <a href="#" class="watch-btn play-btn">
+                                <i class='bx bx-right-arrow' ></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <!--Movies Box 6-->
+                <div class="swiper-slide">
+                    <div class="movie-box">
+                        <img src="img/features/movie3.jpg" alt="" class="movi-box-img">
+                        <div class="box-text">
+                            <h3 class="movie-tile">Sita Raman</h3>
+                            <span class="movie-type">Action/ Comedy</span>
+                            <a href="#" class="watch-btn play-btn">
+                                <i class='bx bx-right-arrow' ></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <!--Movies Box 6-->
+                <div class="swiper-slide">
+                    <div class="movie-box">
+                        <img src="img/features/movie2.jpg" alt="" class="movi-box-img">
+                        <div class="box-text">
+                            <h3 class="movie-tile">Guntur karam</h3>
+                            <span class="movie-type">Action</span>
+                            <a href="#" class="watch-btn play-btn">
+                                <i class='bx bx-right-arrow' ></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <!--Movies Box 6-->
+                <div class="swiper-slide">
+                    <div class="movie-box">
+                        <img src="img/features/movie1.jpg" alt="" class="movi-box-img">
+                        <div class="box-text">
+                            <h3 class="movie-tile">G.O.A.T</h3>
+                            <span class="movie-type">Action/ Suspense</span>
+                            <a href="#" class="watch-btn play-btn">
+                                <i class='bx bx-right-arrow' ></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+              </div>
+              
+        </div>
+     </section>
+     
+     <!--popular section end-->
+     
+     <!--Movies section-->
+     <section class="movies container" id="movies">
+         <!--heading-->
+         <div class="heading">
+            <h2 class="heading-title">Movies and Shows</h2>
+         </div>
+         <!--Movies Content-->
+         <div class="movies-content">
+            <!--Movies box 1-->
+            <div class="movie-box">
+                <img src="img/movies/movie-1.png" alt="" class="movi-box-img">
+                <div class="box-text">
+                    <h3 class="movie-tile">Jumanji: Welcome to the Jungle</h3>
+                    <span class="movie-type">Action</span>
+                    <a href="play-page.html" class="watch-btn play-btn">
+                        <i class='bx bx-right-arrow' ></i>
+                    </a>
+                </div>
+            </div>
+             <!--Movies box 2-->
+             <div class="movie-box">
+                <img src="img/movies/movie-2.png" alt="" class="movi-box-img">
+                <div class="box-text">
+                    <h3 class="movie-tile">Hitman's Wife Bodygaurd</h3>
+                    <span class="movie-type">Action</span>
+                    <a href="#" class="watch-btn play-btn">
+                        <i class='bx bx-right-arrow' ></i>
+                    </a>
+                </div>
+            </div>
+             <!--Movies box 3-->
+             <div class="movie-box">
+                <img src="img/movies/movie-3.png" alt="" class="movi-box-img">
+                <div class="box-text">
+                    <h3 class="movie-tile">Shang-chi</h3>
+                    <span class="movie-type">Action</span>
+                    <a href="#" class="watch-btn play-btn">
+                        <i class='bx bx-right-arrow' ></i>
+                    </a>
+                </div>
+            </div>
+             <!--Movies box 4-->
+             <div class="movie-box">
+                <img src="img/movies/movie-4.png" alt="" class="movi-box-img">
+                <div class="box-text">
+                    <h3 class="movie-tile">Eternals</h3>
+                    <span class="movie-type">Action</span>
+                    <a href="#" class="watch-btn play-btn">
+                        <i class='bx bx-right-arrow' ></i>
+                    </a>
+                </div>
+            </div>
+             <!--Movies box 5-->
+             <div class="movie-box">
+                <img src="img/movies/movie-5.png" alt="" class="movi-box-img">
+                <div class="box-text">
+                    <h3 class="movie-tile">Money-Heist</h3>
+                    <span class="movie-type">Action</span>
+                    <a href="#" class="watch-btn play-btn">
+                        <i class='bx bx-right-arrow' ></i>
+                    </a>
+                </div>
+            </div>
+             <!--Movies box 6-->
+             <div class="movie-box">
+                <img src="img/movies/movie-6.png" alt="" class="movi-box-img">
+                <div class="box-text">
+                    <h3 class="movie-tile">The wolverine</h3>
+                    <span class="movie-type">Action/ Sci-Fi</span>
+                    <a href="#" class="watch-btn play-btn">
+                        <i class='bx bx-right-arrow' ></i>
+                    </a>
+                </div>
+            </div>
+             <!--Movies box 7-->
+             <div class="movie-box">
+                <img src="img/movies/movie-7.png" alt="" class="movi-box-img">
+                <div class="box-text">
+                    <h3 class="movie-tile">Johnny English</h3>
+                    <span class="movie-type">Action</span>
+                    <a href="#" class="watch-btn play-btn">
+                        <i class='bx bx-right-arrow' ></i>
+                    </a>
+                </div>
+            </div>
+             <!--Movies box 8-->
+             <div class="movie-box">
+                <img src="img/movies/movie-8.png" alt="" class="movi-box-img">
+                <div class="box-text">
+                    <h3 class="movie-tile">Spider-Man: No Way Home</h3>
+                    <span class="movie-type">Action</span>
+                    <a href="#" class="watch-btn play-btn">
+                        <i class='bx bx-right-arrow' ></i>
+                    </a>
+                </div>
+            </div>
+             <!--Movies box 8-->
+             <div class="movie-box">
+                <img src="img/movies/movies6.jpg" alt="" class="movi-box-img">
+                <div class="box-text">
+                    <h3 class="movie-tile">The Great Indian Family</h3>
+                    <span class="movie-type">Comedy</span>
+                    <a href="#" class="watch-btn play-btn">
+                        <i class='bx bx-right-arrow' ></i>
+                    </a>
+                </div>
+            </div>
+             <!--Movies box 8-->
+             <div class="movie-box">
+                <img src="img/movies/movie7.png" alt="" class="movi-box-img">
+                <div class="box-text">
+                    <h3 class="movie-tile">Incidious-THe Red Door</h3>
+                    <span class="movie-type">Action</span>
+                    <a href="#" class="watch-btn play-btn">
+                        <i class='bx bx-right-arrow' ></i>
+                    </a>
+                </div>
+            </div>
+             <!--Movies box 8-->
+             <div class="movie-box">
+                <img src="img/movies/movies-10.png" alt="" class="movi-box-img">
+                <div class="box-text">
+                    <h3 class="movie-tile">Kalki</h3>
+                    <span class="movie-type">Action/Sci-Fi</span>
+                    <a href="#" class="watch-btn play-btn">
+                        <i class='bx bx-right-arrow' ></i>
+                    </a>
+                </div>
+            </div>
+             <!--Movies box 8-->
+             <div class="movie-box">
+                <img src="img/movies/movies9.jpg" alt="" class="movi-box-img">
+                <div class="box-text">
+                    <h3 class="movie-tile">Avatar</h3>
+                    <span class="movie-type">Action</span>
+                    <a href="#" class="watch-btn play-btn">
+                        <i class='bx bx-right-arrow' ></i>
+                    </a>
+                </div>
+            </div>
+         </div>
+     </section>
+    <!--Movies section end-->
+    <!--Next Page-->
+    <div class="nextpage">
+        <a href="" class="next-btn">Next Page</a>
+    </div>
+
+
+
+    <section id="newsletter" class="section-p1 section-m1" >
+        <div class="newstext">
+            <h4>Sign Up For Latest movies and shows</h4>
+            <p>Get E-mail updates about the <span>upcoming shows.</span></p>
+        </div>
+        <div class="form">
+            <input type="text" placeholder="Your email address">
+            <button class="normal">Sign Up</button>
+        </div>
+    </section>
+    <footer class="section-p1">
+        <div class="col">
+            <img class="logo" src="img/logo.png" alt="">
+            <h4>Contact</h4>
+            <p><strong>Address: </strong>Trends 2nd floor,Station road,Gunupur,765022</p>
+            <p><strong>Contact: </strong>(+91)7008595494 / (+91)9827462388 / (+91)8456994271</p>
+            <p><strong>Hours: </strong>10:00 - 18:00  ,Mon-Sat</p>
+            <div class="follow">
+                <h4>Follow us</h4>
+                <div class="icon">
+                   <i class="fab fa-facebook-f"></i>
+                   <i class="fab fa-twitter"></i>
+                   <i class="fab fa-instagram-"></i>
+                   <i class="fab fa-pinterest-p"></i>
+                   <i class="fab fa-youtube"></i>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+             <h4>About</h4>
+             <a href="#">About us</a>
+             <a href="#">Privacy policy</a>
+             <a href="#">Terms & Conditions</a>
+             <a href="#">Contact us</a>
+        </div>
+        <div class="col">
+            <h4>My Account</h4>
+            <a href="#">Sign In</a>
+            <a href="#">My Wishlist</a>
+            <a href="#">Help</a>
+       </div>
+       <div class="col install">
+            <h4>Install App</h4>
+            <p>From App store or Google store</p>
+            <div class="row">
+                 <img src="img/pay/app.png" alt="">
+                 <img src="img/pay/google.png" alt="">
+            </div>
+       </div>
+       <div class="copyright">
+           <p>@ 2021, Tech2 etc - HTML CSS encommerce Template</p>
+       </div>
+    </footer>
+    <!-- Swiper JS -->
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
